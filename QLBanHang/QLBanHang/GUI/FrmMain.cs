@@ -23,5 +23,29 @@ namespace QLBanHang.GUI
         }
         #endregion
 
+        #region Sự kiện
+        private void btnDangNhap_Click(object sender, EventArgs e)
+        {
+            NHANVIEN nv = db.NHANVIENs.Where(p => p.TAIKHOAN == txtTenDangNhap.Text && p.MATKHAU == txtMatKhau.Text).FirstOrDefault();
+
+            if (nv == null)
+            {
+                MessageBox.Show("Tên đăng nhập hoặc tài khoản chưa chính xác", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            MessageBox.Show("Đăng nhập thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            FrmMain form = new FrmMain(nv);
+            this.Hide();
+            form.ShowDialog();
+            this.Show();
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+        #endregion
+
     }
 }
