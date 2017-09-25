@@ -52,6 +52,40 @@ namespace QLBanHang.GUI
             MessageBox.Show("Đổi mật khẩu thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
         }
+        private void btnDong_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+    }
+} if (txtMatKhauCu.Text != nv.MATKHAU)
+            {
+                MessageBox.Show("Mật khẩu cũ không chính xác", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (txtMatKhauMoi.Text == "")
+            {
+                MessageBox.Show("Mật khẩu mới không được để trống", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (txtXacNhan.Text != txtMatKhauMoi.Text)
+            {
+                MessageBox.Show("Xác nhận mật khẩu không chính xác", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            nv.MATKHAU = txtMatKhauMoi.Text;
+            db.SaveChanges();
+
+            MessageBox.Show("Đổi mật khẩu thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Close();
+}
+
+private void btnDong_Click(object sender, EventArgs e)
+{
+    this.Close();
+}
 
     }
 }
