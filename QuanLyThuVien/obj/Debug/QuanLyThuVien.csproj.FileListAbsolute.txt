@@ -34,3 +34,6 @@ E:\Study\ClassMTA\Kì 1 năm 2017 - 2018\Thực tập nhóm\rỗng\QuanLyThuVien
 C:\Users\MTAZero\Documents\GitHub\QuanLyBanHang\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
 C:\Users\MTAZero\Documents\GitHub\QuanLyBanHang\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
 C:\Users\MTAZero\Documents\GitHub\QuanLyBanHang\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+D:\TTN\QuanLyBanHang\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+D:\TTN\QuanLyBanHang\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+D:\TTN\QuanLyBanHang\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
