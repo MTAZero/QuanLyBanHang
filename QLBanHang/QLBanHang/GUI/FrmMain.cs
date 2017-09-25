@@ -13,6 +13,15 @@ namespace QLBanHang.GUI
 {
     public partial class FrmMain : Form
     {
-       
+        private QLBanHangDbContext db = DBService.db;
+
+        #region Constructor
+        public FrmLogin()
+        {
+            InitializeComponent();
+            DBService.Reload();
+        }
+        #endregion
+
     }
 }
