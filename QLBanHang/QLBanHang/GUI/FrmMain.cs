@@ -13,67 +13,6 @@ namespace QLBanHang.GUI
 {
     public partial class FrmMain : Form
     {
-        private QLBanHangDbContext db = Service.DBService.db;
-        private NHANVIEN nv = new NHANVIEN();
-
-        #region constructor
-        public FrmMain(NHANVIEN _nv)
-        {
-            InitializeComponent();
-            Service.DBService.Reload();
-            nv = _nv;
-        }
-        #endregion
-
-        #region LoadForm
-
-        private void LoadPhanQuyen()
-        {
-            
-        }
-        private void FrmMain_Load(object sender, EventArgs e)
-        {
-            // int a = 1+2;
-            int b = 1 + 3;
-        }
-        #endregion
-
-        #region sự kiện
-        private void btnQLNhanVien_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnQLMatHang_Click(object sender, EventArgs e)
-        {
-            
-        }
-        private void btnQLKho_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnDong_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnNhapHang_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnXuatHang_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        
-
-        private void txtDoiMatKhau_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            
-        }
-        #endregion
+       
     }
 }

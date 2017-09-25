@@ -13,22 +13,6 @@ namespace QLBanHang.GUI
 {
     public partial class FrmDoiMatKhau : Form
     {
-        private QLBanHangDbContext db = Service.DBService.db;
-        private NHANVIEN nv = new NHANVIEN();
-
-        #region Load form
-        public FrmDoiMatKhau(NHANVIEN _nv)
-        {
-        }
-        #endregion
-
-        private void btnDoiMatKhau_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnDong_Click(object sender, EventArgs e)
-        {
-        }
+        
     }
 }

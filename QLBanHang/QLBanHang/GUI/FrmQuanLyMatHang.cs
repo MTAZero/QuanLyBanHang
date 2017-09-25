@@ -13,61 +13,6 @@ namespace QLBanHang.GUI
 {
     public partial class FrmQuanLyMatHang : Form
     {
-        private QLBanHangDbContext db = Service.DBService.db;
-        private int index = 0, index1 = 0;
-
-        #region constructor
-        public FrmQuanLyMatHang()
-        {
-            InitializeComponent();
-        }
-        #endregion
-
-        #region LoadForm
-
-        private void LoadControl()
-        {
-        }
-
-        private void LoadDgvNhanVien()
-        {
-            
-        }
-
-
-        private void FrmQuanLyNhanVien_Load(object sender, EventArgs e)
-        {
-           
-        }
-        #endregion
-
-        #region sự kiện ngầm
-        private void dgvNhanVien_SelectionChanged(object sender, EventArgs e)
-        {
-            
-        }
-        #endregion
-
-        #region sự kiện
-        private void btnTimKiem_Click(object sender, EventArgs e)
-        {
-            LoadDgvNhanVien();
-        }
-
-        private void btnThem_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnSua_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnXoa_Click(object sender, EventArgs e)
-        {
-            
-        }
-        #endregion
+        
     }
 }
