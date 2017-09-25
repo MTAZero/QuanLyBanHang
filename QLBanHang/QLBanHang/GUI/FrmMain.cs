@@ -34,6 +34,7 @@ namespace QLBanHang.GUI
         private void FrmMain_Load(object sender, EventArgs e)
         {
             // int a = 1+2;
+            int b = 1 + 3;
         }
         #endregion
 
